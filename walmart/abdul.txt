@@ -1,0 +1,7 @@
+echo "hai"
+date
+echo "bye"echo "hai"
+date
+echo "bye"echo "hai"
+date
+echo "bye"

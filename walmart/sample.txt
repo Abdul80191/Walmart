@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "hai good moringi"
+echo "today day is"
+date
+echo $?
