@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Enter dir name"
+read abdul
+if [ -d "$abdul" ]
+then
+echo "Directory exist"
+else
+mkdir $abdul
+echo "directory not exist"
+fi
+

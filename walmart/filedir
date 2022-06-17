@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "To Print Number of Files or Diretors"
+if [ -d "$@" ];
+then
+echo "Files found: $(find "$@" -type f)"
+echo "Folders found: $(find "$@" -type )"
+else
+echo "[ERROR] Please retry with another folder"
+fi
+echo `ls -la`
+echo " "

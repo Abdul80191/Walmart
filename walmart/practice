@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "print number of files and directories"
+if [ -d "$@" ];
+then
+echo "Find files $(find "$@" -type f)"
+echo "Find Folders $(find "$@" -type d)"
+else
+echo "Error"
+fi

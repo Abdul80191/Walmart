@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Enter your lucky number"
+read n
+if [ $n -eq 10 ]
+then
+echo "you won first prize"
+elif [ $n -eq 15 ]
+then
+echo "you won second prize"
+elif  [ $n -eq 20 ]
+then
+echo "you won third prize"
+else
+echo "sorry try next time"
+fi
+date
+echo $$

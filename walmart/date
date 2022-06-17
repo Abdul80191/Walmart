@@ -1,0 +1,10 @@
+#!/bin/bash
+year=`date +%y`
+month=`date +%m`
+day=`date +%d`
+hour=`date +%H`
+minute=`date +M`
+second=`date +S`
+echo `date`
+echo "Current date is $day-$month-year"
+echo "Current Time is: $hour:$minute:$second"
