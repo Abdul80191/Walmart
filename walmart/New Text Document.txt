@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "hello user welcome to elections"
+echo "what is your age"
+read age
+if [ $age -ge 18 ]
+then
+echo "you are elegible to vote"
+else
+echo "you are not elegible to vote"
+fi
+
