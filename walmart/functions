@@ -1,0 +1,15 @@
+#!/bin/bash
+function add ()
+{
+echo "Inside add function"
+echo "S1 + S2"
+((sum=$1+$2))
+echo "sum is ${sum}"
+echo "number of arguments $#"
+
+}
+
+add 222 1  5
+add 332 1
+add 4 22
+

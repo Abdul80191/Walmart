@@ -1,0 +1,8 @@
+echo "Creating the repo..."
+
+curl \
+  -X PUT \
+  -user Abdul80191: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 \
+  -H "Accept: application/vnd.github.v3+json" \
+  https://github.com/Abdul-88016/training.git \
+  -d '{"name":"GitHubAPItest","private":false}'
